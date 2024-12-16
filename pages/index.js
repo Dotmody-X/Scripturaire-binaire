@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Scripturaire-Binaire01</title>
+        <title>Scripturaire-Binaire</title>
         <meta
           name="description"
           content="Un blog sur l'art génératif et la création par le code"
@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
 
       {/* Header avec le logo et la barre de recherche */}
       <header className={styles.header}>
-        <h1 className={styles.title}>Script-01</h1>
+        <h1 className={styles.title}>Scripturaire-01</h1>
         <div className={styles.searchContainer}>
           <input
             type="text"
