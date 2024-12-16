@@ -143,3 +143,19 @@
   border-radius: 8px;
   margin-bottom: 1rem;
 }
+
+/* Responsive pour les écrans inférieurs à 768px */
+@media (max-width: 1060px) {
+  .articlesList {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* Une seule colonne */
+  }
+
+  .articleText {
+    display: none; /* Cacher le texte sous les images */
+  }
+
+  .article {
+    padding: 0; /* Réduire les marges autour des articles */
+    border: none; /* Supprimer les bordures si nécessaire */
+  }
+}

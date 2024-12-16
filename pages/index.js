@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Script-01</title>
+        <title>Scripturaire-Binaire</title>
         <meta
           name="description"
           content="Un blog sur l'art génératif et la création par le code"
