@@ -1,7 +1,7 @@
 ---
 title: "Les algorithmes créatifs :                  
 construire des mondes infinis"
-image: "/images/Algorithmes-créatifs/Minecraft.png"
+image: "/images/AC/Minecraft.png"
 date: "05-12-2024"
 excerpt: "Créer des mondes cohérents et immersifs dans Minecraft n’est pas une tâche facile. Les développeurs doivent relever plusieurs défis"
 category: "algorithmes créatifs"
@@ -40,7 +40,7 @@ Le cœur de la génération de Minecraft repose sur un concept clé : le "bruit 
 Minecraft utilise le bruit de Perlin, une fonction mathématique inventée par Ken Perlin en 1983. Cette méthode permet de générer des motifs pseudo-aléatoires mais cohérents, ce qui est parfait pour créer des paysages naturels comme des collines, des vallées et des montagnes. Contrairement à un bruit purement aléatoire, le bruit de Perlin crée des variations progressives, donnant un aspect organique aux terrains.
 
 
-![Différent bruit de perlin](/images/Algorithmes-créatifs/bruit-perlin.webp)
+![Différent bruit de perlin](/images/AC/bruit-perlin.webp)
 _© Différent bruit de perlin_
 <br>
 
@@ -90,7 +90,7 @@ Les algorithmes procéduraux ne se contentent pas de générer des paysages pour
 
 De plus, les algorithmes eux-mêmes sont souvent modifiés par la communauté des moddeurs, qui créent des versions alternatives du jeu avec des biomes supplémentaires, des structures inédites ou même des systèmes entièrement nouveaux.
 
-![Différent biomes disponible dans Minecrat](/images/Algorithmes-créatifs/biomes.jpg)
+![Différent biomes disponible dans Minecrat](/images/AC/biomes.jpg)
 _© Différent biomes disponible dans Minecrat_
 <br>
 

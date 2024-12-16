@@ -1,6 +1,6 @@
 ---
 title: "L’algorithme au service de la créativité : une révolution artistique en marche"
-image: "/images/Algorithmes-créatifs/algorithme-creation.jpg"
+image: "/images/AC/algorithme-creation.jpg"
 date: "23-11-2024"
 excerpt: "Mais qu’est-ce qui rend un algorithme « créatif » ? Comment fonctionne-t-il ? Et en quoi impacte-t-il des domaines aussi variés que l’art, la musique, l’architecture ou même la littérature ?"
 category: "algorithmes créatifs"
@@ -23,7 +23,7 @@ Un algorithme créatif est un programme conçu pour produire des résultats nouv
 
 Les bases de ces systèmes remontent aux années 1970, lorsque [Harold Cohen](https://fr.wikipedia.org/wiki/Harold_Cohen) a développé **AARON**, l’un des premiers programmes capables de créer des œuvres d’art autonomes. Encore avant cela, dans les années 1950, Alan Turing avait déjà exploré des concepts de musique générative. Depuis, ces algorithmes se sont multipliés et diversifiés, devenant des outils puissants dans des disciplines variées.
 
-[![http://collections.vam.ac.uk/item/O499577/amsterdam-suite-drawing-cohen-harold/](/images/Algorithmes-créatifs/Aaron.jpg)](http://collections.vam.ac.uk/item/O499577/amsterdam-suite-drawing-cohen-harold/)
+[![http://collections.vam.ac.uk/item/O499577/amsterdam-suite-drawing-cohen-harold/](/images/AC/Aaron.jpg)](http://collections.vam.ac.uk/item/O499577/amsterdam-suite-drawing-cohen-harold/)
 _© Drawing, computer-generated, with hand colouring, 1977-1982. - Harold Cohen_
 
 <br>
@@ -79,22 +79,6 @@ Les algorithmes créatifs redéfinissent les frontières de la créativité. Ils
 <br>
 
 Alors, jusqu’où les algorithmes peuvent-ils nous emmener ? À mesure que la technologie progresse, ils continueront de nous surprendre et de repousser les limites de l’imagination humaine. Pourquoi ne pas les inviter dans votre propre processus créatif ?
-
-<!-- <br>
-
-## Ressources pour aller plus loin
-
-- **Livres recommandés :** *Generative Design* de Hartmut Bohnacker et *The Master Algorithm* de Pedro Domingos.
-- **Communautés en ligne :**
-Découvrez des créations et des inspirations sur [CreativeApplications.Net](https://creativeapplications.net/) et [Generative Hut](https://generativehut.com/).
-- **Outils à explorer :**
-Plongez dans Processing, p5.js ou Magenta pour commencer votre aventure dans la création algorithmique.
-
-<br>
-
-Et vous, avez-vous déjà expérimenté la créativité avec des algorithmes ? Partagez vos découvertes et vos créations, et laissez la technologie vous inspirer.
-
-<br> -->
 
 <br>
 
