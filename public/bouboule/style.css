@@ -1,0 +1,44 @@
+*,
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 5rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: 45%;
+  left: 30%;
+
+  color: white;
+  text-shadow: 0 0 4px white;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}

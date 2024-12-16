@@ -1,0 +1,133 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column; /* Aligne les éléments en colonne */
+  align-items: center; /* Centre horizontalement les éléments */
+  margin-bottom: 1rem; /* Espacement en dessous */
+  max-width: 800px; /* Limite la largeur de la colonne */
+  margin: 1rem auto; /* Centre la colonne dans la page */
+}
+
+.articleTitle {
+  text-align: left; /* Centre le titre horizontalement */
+  font-size: 2.5rem; /* Taille du titre */
+  margin-top: 2rem; /* Espace au-dessus */
+  margin-bottom: 1.5rem; /* Espace en dessous */
+  width: calc(800px + 20%); /* 30% plus large que la colonne */
+  max-width: 100%; /* Empêche de dépasser la largeur de la page */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles pour le fil d'Ariane */
+.breadcrumb {
+  width: 100%; /* Occupe toute la largeur de la colonne */
+  text-align: left; /* Aligne le texte à gauche */
+  font-size: 0.9rem; /* Taille du texte */
+  color: #0b854e; /* Couleur des liens */
+  margin-bottom: 0.5rem; /* Espacement avec le titre */
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #0b854e;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline; /* Souligne le lien au survol */
+}
+
+.breadcrumb span {
+  color: #555; /* Couleur grise pour le texte non cliquable */
+}
+
+/* Conteneur pour la date et l'auteur */
+.articleInfo {
+  display: flex; /* Aligne les éléments sur une ligne */
+  justify-content: space-between; /* Sépare les éléments */
+  align-items: center; /* Centre verticalement les textes */
+  width: 100%; /* Occupe toute la largeur disponible */
+  max-width: 800px; /* Limite la largeur pour l'aligner avec le contenu */
+  margin: 1rem auto; /* Centre le conteneur horizontalement */
+  font-size: 0.9rem; /* Taille de texte légèrement réduite */
+  color: #555; /* Couleur neutre */
+}
+
+/* Date et auteur : styles spécifiques */
+.articleDate,
+.articleAuthor {
+  margin: 0; /* Supprime les marges par défaut */
+  font-style: italic; /* Optionnel : pour différencier le style */
+}
+
+
+.article {
+  display: flex;
+  flex-direction: column; /* Aligne les éléments en colonne */
+  align-items: center; /* Centre horizontalement les éléments */
+  justify-content: center; /* Optionnel : centre verticalement */
+  max-width: 800px; /* Limite la largeur de l'article */
+  margin: 0 auto; /* Centre l'article sur la page */
+  padding: 2rem; /* Ajoute de l'espace autour de l'article */
+}
+
+.article-header {
+  text-align: center; /* Centre le titre */
+  margin-bottom: 2rem; /* Ajoute un espacement sous le titre */
+}
+
+.article-header h1 {
+  font-size: 2.5rem; /* Ajuste la taille du titre */
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.article h2 {
+  font-size: 1.5rem; /* Taille des sous-titres */
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.article img {
+  max-width: 100%; /* Les images ne dépasseront pas la largeur du conteneur */
+  height: auto; /* Conserve les proportions des images */
+  margin: 1rem 0; /* Ajoute un espace autour des images */
+  border-radius: 20px;
+}
+
+.article p {
+  text-align: justify; /* Justifie le texte pour une meilleure lecture */
+  line-height: 1.6; /* Espacement entre les lignes */
+}
+
+.article a {
+  color: #0b854e; /* Couleur pour les liens cliquables */
+  text-decoration: none; /* Supprime le soulignement par défaut */
+  font-weight: bold; /* Rendre le lien plus visible */
+  transition: all 0.2s ease-in-out; /* Ajoute une transition fluide pour les changements */
+}
+
+.article a:hover {
+  color: #0b854e; /* Change la couleur au survol */
+  font-size: 1.05em; /* Agrandit légèrement le texte */
+}
+
+/* .article a::after {
+  content: "↗"; 
+  font-size: 0.9rem;
+  color: #555;
+} */
+
+/* .article a:hover::after {
+  color: #0070f3; 
+} */
+
+.article p em {
+  display: block; /* Chaque crédit apparaît sur une nouvelle ligne */
+  text-align: left;
+  font-size: 0.9rem; /* Taille légèrement réduite */
+  font-style: italic; /* Style en italique pour différencier */
+  color: #555; /* Couleur grise */
+  margin-top: -1.3rem; /* Espacement au-dessus */
+  margin-left: 1px;
+}

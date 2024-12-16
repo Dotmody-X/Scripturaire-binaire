@@ -1,0 +1,145 @@
+/* Variables de couleur */
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+}
+
+/* Importation des polices locales */
+@font-face {
+  font-family: "Krungthep";
+  src: url("/fonts/Krungthep.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 800;
+}
+
+/* Styles principaux */
+.container {
+  width: 100%;
+  padding: 5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin-top: 8%;
+}
+
+.title {
+  font-family: "Krungthep";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Barre de recherche */
+.searchContainer {
+  position: relative;
+}
+
+.searchInput {
+  padding: 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  outline: none;
+  width: 200px;
+}
+
+/* Contenu principal */
+.main {
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  padding-top: 5%;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%; /* Utilise toute la largeur de l’écran */
+  gap: 8%;
+}
+
+/* Section des catégories */
+.categories {
+  flex-basis: 20%;
+  max-width: 20%;
+  padding-right: 1rem;
+  text-transform: capitalize;
+}
+
+.categories h3 {
+  font-size: 1.5rem;
+}
+
+.categories ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.categories li {
+  padding: 0.5rem 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.categories li:hover {
+  color: #0b854e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.activeCategory {
+  color: #0b854e; 
+  font-weight: bold;
+}
+
+/* Section des articles */
+.articlesSection {
+  width: 100%;
+  flex-basis: 60%;
+  max-width: 60%;
+}
+
+.articlesList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem; 
+  list-style-type: none;
+  padding: 0.5rem 0;
+
+}
+
+.article {
+  width: 100%;
+  background-color: transparent;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.article:hover {
+  background: rgb(33, 33, 33);
+}
+
+.underline {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff; /* Couleur de la ligne */
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.articleImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
