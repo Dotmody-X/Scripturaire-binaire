@@ -1,4 +1,4 @@
-import Link from "next/link"; // Import du composant Link de Next.js
+import Link from "next/link"; 
 import { useState } from "react";
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
 
       {/* Header avec le logo et la barre de recherche */}
       <header className={styles.header}>
-        <h1 className={styles.title}>Scripturaire-01</h1>
+        <h1 className={styles.title}>Scripturaire-Binaire</h1>
         <div className={styles.searchContainer}>
           <input
             type="text"
@@ -64,12 +64,12 @@ export default function Home({ allPostsData }) {
                 "all",
                 "algorithmes créatifs",
                 "art génératif",
-                "audioVisuel & génératif",
+                "audio-visuel & génératif",
                 "code & esthétique",
-                "créations intéractives",
+                "créations interactives",
                 "données & visualisation",
                 "expositions & évènements",
-                "ia & art",
+                "IA & art",
                 "outils & technologies",
                 "portraits d'artistes",
                 "ressources & inspirations",
