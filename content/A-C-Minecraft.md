@@ -1,6 +1,5 @@
 ---
-title: "Les algorithmes créatifs :                  
-construire des mondes infinis"
+title: "Les algorithmes créatifs : construire des mondes infinis"
 image: "/images/AC/Minecraft.png"
 date: "05-12-2024"
 excerpt: "Créer des mondes cohérents et immersifs dans Minecraft n’est pas une tâche facile. Les développeurs doivent relever plusieurs défis"

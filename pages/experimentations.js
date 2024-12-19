@@ -37,10 +37,10 @@ export default function Experimentations() {
 
   return (
     <div className="container">
-      <h1>Mes Expérimentations Interactives</h1>
+      <h1>Mes Expérimentations</h1>
       <p>
-        Explorez mes projets interactifs liés au son, au design et au code
-        génératif.
+        Mes projets de code inspiré ou lié à la musique, avec des projtes
+        interactifs liés au son, ou au code génératif.
       </p>
       <div className="grid">
         {projets.map((projet) => (
@@ -93,10 +93,10 @@ export default function Experimentations() {
         }
 
         .project-image {
-          object-fit: cover; 
-          border-radius: 10px; 
-          width: 100%; 
-          height: auto; 
+          object-fit: cover;
+          border-radius: 10px;
+          width: 100%;
+          height: auto;
         }
 
         h2 {

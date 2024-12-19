@@ -7,7 +7,7 @@ category: "art génératif"
 author: "Nathan Gillet"
 ---
 
-Images utilisé pour la couverture : "[https://openprocessing.org/sketch/2315186](https://openprocessing.org/sketch/2315186)"
+Images utilisé pour la couverture : "[openprocessing.org](https://openprocessing.org/sketch/2315186)"
 
 <br>
 
