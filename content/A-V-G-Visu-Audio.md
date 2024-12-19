@@ -1,5 +1,5 @@
 ---
-title: "Le code comme pinceau : introduction à l'art génératif pour débutants"
+title: "Quand la musique inspire le code : créer des visualisations audio réactives"
 image: "/images/AVG/couv2.jpg"
 date: "15-12-2024"
 excerpt: "L’idée de lier musique et visuel remonte à des expérimentations comme celles de Kandinsky, qui voyait des équivalences entre sons et formes."
